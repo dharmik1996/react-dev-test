@@ -1,0 +1,64 @@
+ .my-app {
+     height: 100vh;
+
+     .btn-main {
+         color: white;
+         transition: 0.3s ease-in-out all;
+     }
+
+     .btn {
+         &.btn-a {
+             background-color: #46139f;
+
+             &:hover {
+                 background-color: #661ae9 !important;
+             }
+         }
+
+         &.btn-b {
+             background-color: #ff7f50;
+
+             &:hover {
+                 background-color: #fa9a76 !important;
+             }
+         }
+
+         &.btn-c {
+             background-color: white;
+             border: 1px solid #46139f !important;
+             color: #46139f !important;
+
+             &:hover {
+                 color: white !important;
+                 background-color: #46139f !important;
+             }
+         }
+
+         &.btn-success {
+             background-color: #ff7f50;
+         }
+
+         &.btn-secondary {
+             background-color: white;
+             border: 1px solid #46139f;
+             color: #46139f;
+         }
+     }
+
+     .form-control:focus {
+         box-shadow: none;
+         border-color: #ced4da;
+     }
+ }
+
+ .pointer {
+     cursor: pointer;
+ }
+
+ .list-data {
+     transition: 0.3s ease-in-out all;
+
+     &:hover {
+         background-color: #dee2e6;
+     }
+ }
